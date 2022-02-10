@@ -14,5 +14,5 @@ jobs:
           node-version: 14
       - name: Publish
         run: |
-          npm config set //registry.npmjs.org/:_authToken ${{ secrets.NPM_TOKEN }}
+          npm config set //registry.npmjs.org/:_authToken $ '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'
           npm publish --ignore-scripts
